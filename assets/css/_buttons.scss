@@ -1,0 +1,19 @@
+.btn{
+    background: #fff;
+    border: 1px solid #436CED;
+    color: #1A105A;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-family: 'Ambit', sans-serif;
+}
+
+.btn-location {
+    border: none;
+    border-radius: unset;
+}
+
+.btn-saved {
+    flex-basis: 150px;
+}

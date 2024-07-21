@@ -1,0 +1,128 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+
+@import "fonts";               
+@import "buttons";
+
+                                                
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    font-family: "TUIType-Light";
+    color: #1a115a;
+}
+
+.io-content{
+    position: relative;
+}
+
+.floating-box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 650px;
+    max-width: calc(100% - 40px);
+}
+
+.result-box{
+    display:none
+}
+
+.block-box{
+    margin: 20px 0;
+    padding: 16px 16px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    background-color: #fff;
+
+    &.control-box{
+        background: #E2F4FD;
+    }
+
+    .search-input-group{
+        max-height: 40px;
+
+        .input-group{
+            border: 1px solid #436CED;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        input.form-control {
+            border: none;
+            border-radius: unset;
+        }
+    }
+
+    &.landing-box{
+        h2{
+            margin-bottom: 24px;
+        }
+
+        .note{
+            font-style: italic;
+            color: #676767;
+            font-size: 0.9em;
+            line-height: 1.5em;
+        }
+    }
+
+    &.result-box{
+
+        height: 300px;
+        overflow: auto;
+
+        .box-header{
+            display: none;
+        }
+
+        #back-row{
+            display: none;
+        } 
+            h3{
+                margin-bottom: 24px;
+            }
+
+            .block-location{
+                .block-thumb img{
+                    float: left;
+                    width: 100px;
+                    height: 100px;
+                }
+            
+                .block-body{
+                    padding-left: 120px;
+                    position: relative;  
+
+                    .distance{
+                        margin-top: -1em;
+                        margin-bottom: 1em;
+                        font-size: 0.9em;
+                    }
+
+                    .label-open{
+                        position: absolute;
+                        top: 0;
+                        right: 20px;
+                        color: #fff;
+                        background: #3a7e38;
+                        border-radius: 1.5em;
+                        font-size: 14px;
+                        margin: 0px 5px;
+                        padding: 0 13px;
+                        line-height: 1em;
+                        height: 1.5em;
+                        font-weight: bold;
+                    }
+                }               
+            }
+
+            .opening-date p{
+                margin: 1em 0;
+            }
+        }
+        }
+

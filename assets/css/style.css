@@ -1,0 +1,147 @@
+@import url(https://db.onlinewebfonts.com/c/cad6a9d11a759a3af7fb2723af725873?family=TUIType-Light);
+@import url("https://fonts.cdnfonts.com/css/ambit");
+h2 {
+  font: 24px;
+  line-height: 1.4em;
+  color: #1A105A;
+  font-weight: bold;
+  font-family: "Ambit", TUITypeLight, tuitypelightregular, tui-type, tuitype, arial, sans-serif;
+}
+
+h3 {
+  font-size: 16px;
+  color: #1A105A;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  font-family: "Ambit", TUITypeLight, tuitypelightregular, tui-type, tuitype, arial, sans-serif;
+}
+
+h4 {
+  font-size: 16px;
+  color: #1a115a;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  font-family: "Ambit", TUITypeLight, tuitypelightregular, tui-type, tuitype, arial, sans-serif;
+}
+
+.btn {
+  background: #fff;
+  border: 1px solid #436CED;
+  color: #1A105A;
+  border-radius: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-family: "Ambit", sans-serif;
+}
+
+.btn-location {
+  border: none;
+  border-radius: unset;
+}
+
+.btn-saved {
+  flex-basis: 150px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  font-family: "TUIType-Light";
+  color: #1a115a;
+}
+
+.io-content {
+  position: relative;
+}
+
+.floating-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 650px;
+  max-width: calc(100% - 40px);
+}
+
+.result-box {
+  display: none;
+}
+
+.block-box {
+  margin: 20px 0;
+  padding: 16px 16px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+  background-color: #fff;
+}
+.block-box.control-box {
+  background: #E2F4FD;
+}
+.block-box .search-input-group {
+  max-height: 40px;
+}
+.block-box .search-input-group .input-group {
+  border: 1px solid #436CED;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.block-box .search-input-group input.form-control {
+  border: none;
+  border-radius: unset;
+}
+.block-box.landing-box h2 {
+  margin-bottom: 24px;
+}
+.block-box.landing-box .note {
+  font-style: italic;
+  color: #676767;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+.block-box.result-box {
+  height: 300px;
+  overflow: auto;
+}
+.block-box.result-box .box-header {
+  display: none;
+}
+.block-box.result-box #back-row {
+  display: none;
+}
+.block-box.result-box h3 {
+  margin-bottom: 24px;
+}
+.block-box.result-box .block-location .block-thumb img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.block-box.result-box .block-location .block-body {
+  padding-left: 120px;
+  position: relative;
+}
+.block-box.result-box .block-location .block-body .distance {
+  margin-top: -1em;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+.block-box.result-box .block-location .block-body .label-open {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: #fff;
+  background: #3a7e38;
+  border-radius: 1.5em;
+  font-size: 14px;
+  margin: 0px 5px;
+  padding: 0 13px;
+  line-height: 1em;
+  height: 1.5em;
+  font-weight: bold;
+}
+.block-box.result-box .opening-date p {
+  margin: 1em 0;
+}
+
+/*# sourceMappingURL=style.css.map */
