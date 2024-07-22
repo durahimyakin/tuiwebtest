@@ -61,6 +61,9 @@ async function initMap() {
     const mapOptions = {
         center: appVars.defaultLocation, // London, Inggris
         zoom: 5,
+        mapTypeControl: false, // Menonaktifkan tombol "Peta" dan "Satelit"
+        streetViewControl: false, // Menonaktifkan tombol Street View
+        fullscreenControl: false // Menonaktifkan tombol Fullscreen
     };
 
     map = new google.maps.Map(document.getElementById("map"), mapOptions);
